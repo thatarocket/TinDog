@@ -3,18 +3,8 @@ body {
     font-weight: 400;
 }
 
-#title {
-    background-color: #ff4c68;
-    color: white;    
-    
-}
-
 .container-fluid {
-    padding: 3% 15%;
-}
-
-.cont-title {
-    height: 700px;
+    padding: 3% 15% 7%;
 }
 
 h1 {
@@ -46,7 +36,7 @@ h2 {
 }
 
 .nav-link {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
@@ -57,21 +47,28 @@ h2 {
     margin: 5% 3% 5% 0%;
 }
 
+/* Title section */
+
+#title {
+    background-color: #ff4c68;
+    color: white;   
+}
+
 /* Title image  */
 .title-image {
     transform: rotate(25deg);
-    width: 60%;
-    z-index: -2;
-    position: relative;
+    width: 20%;
+    position: absolute;
+    right: 30%;
 }
 
 /* Features */
 
 #features {
-    text-align: center;    
-    margin: 100px auto;
+    padding:7% 15%;
+    text-align: center;  
     background-color: white;
-    z-index: 0;
+    position: relative;
 }
 
 .icon-feature {
@@ -98,15 +95,16 @@ h2 {
 /* Testimonials section*/
 
 #testimonials {
-    padding: 7% 15%;
     text-align: center;
     background-color: #ef8172;
     color:white;
+    position: static;
 }
 
 .testimonial-image {
     width: 10%;
     border-radius: 100%;
+    margin: 20px;
 }
 
 .carousel-item {
