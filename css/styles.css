@@ -135,3 +135,50 @@ h2 {
     padding: 3% 2%;
 }
 
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+}
+
+/* CTA Section */
+
+#cta {
+    background-color:#ff4c68;    
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.title-cta {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin: auto;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer {
+    background-color: #fff;
+    align-items: center;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.footer-icon {
+    margin: 20px 10px;
+}
+
+.copyright {
+    color: #8f8f8f;
+}
